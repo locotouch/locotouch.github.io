@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Learning Dexterous Quadrupedal Transport with Tactile Sensing.">
+  <meta name="keywords" content="LocoTouch">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LocoTouch</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/locotouch_logo.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">LocoTouch: Learning Dexterous Quadrupedal Transport with Tactile Sensing</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser"style="margin-top: -15px;"  >
+  <div class="container is-max-desktop">
+    <div class="container is-centered has-text-centered">
+      <img src="./static/images/system_setup.png" width="80%"></img>
+      <video autoplay muted loop playsinline width="80%" style="margin-top: 6px;">
+        <source src="./static/videos/locotouch_2k.mp4" type="video/mp4">
+      </video>
+      <img width="90%" src="./static/images/vase_caption.png"  style="margin-top: -7px;"></img>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="section" style="margin-top: -80px;">
+  <div class="container is-max-desktop">
+  <div class="container is-centered has-text-centered">
+    <!-- <h2 class="title is-3">Demonstrations on Real Robots</h2> -->
+
+    <h2 class="title is-4" style="margin-top: 40px; margin-bottom: 15px;">Agile Transport in Cluttered Environments</h2>
+      <video controls autoplay muted loop playsinline style="border-radius:10px; width: 100%; margin-bottom: 0px;">
+        <source src="./static/videos/teaser.mp4" type="video/mp4">
+      </video>
+    <p style="font-size: small;">LocoTouch achieves to transport a 1.4kg unsecured cylinder through dense obstacles with sharp turns.</p>
+
+    <h2 class="title is-4" style="margin-top: 40px; margin-bottom: 15px;">Robust Transport in Diverse Terrains</h2>
+    <div class="columns">
+      <div class="column" style="flex: none; width: 50%;">
+        <video controls autoplay muted loop playsinline style="border-radius:10px; ">
+          <source src="./static/videos/sloped_terrain_480.mp4" type="video/mp4">
+        </video>
+        <p style="font-size: small;">Transport on sloped terrain.</p>
+        <!-- <h2 class="title is-5" style="margin-top: 10px; margin-bottom: 10px;">Transport a 1.4kg cylinder over 40m</h2> -->
+      </div>
+      <!-- Video column -->
+      <div class="column">
+        <video controls autoplay muted loop playsinline style="border-radius:10px; ">
+          <source src="./static/videos/rough_terrain_480.mp4" type="video/mp4">
+        </video>
+        <p style="font-size: small;">Transport on rough terrain.</p>
+        <!-- <h2 class="title is-5" style="margin-top: 10px; margin-bottom: 10px;">Transport a sleppery bottle over 60m</h2> -->
+      </div>
+    </div>
+
+
+    <h2 class="title is-4" style="margin-top: 40px; margin-bottom: 15px;">Long-Distance Transport of Unsecured Objects</h2>
+    <div class="columns">
+      <div class="column" style="flex: none; width: 50%;">
+        <video controls autoplay muted loop playsinline style="border-radius:10px; ">
+          <source src="./static/videos/long_distance_1_1080.mp4" type="video/mp4">
+        </video>
+        <p style="font-size: small;">Transport a 1.4kg cylinder over 40m.</p>
+        <!-- <h2 class="title is-5" style="margin-top: 10px; margin-bottom: 10px;">Transport a 1.4kg cylinder over 40m</h2> -->
+      </div>
+      <!-- Video column -->
+      <div class="column">
+        <video controls autoplay muted loop playsinline style="border-radius:10px; ">
+          <source src="./static/videos/long_distance_2_1080.mp4" type="video/mp4">
+        </video>
+        <p style="font-size: small;">Transport a sleppery bottle over 60m.</p>
+        <!-- <h2 class="title is-5" style="margin-top: 10px; margin-bottom: 10px;">Transport a sleppery bottle over 60m</h2> -->
+      </div>
+    </div>
+
+    <h2 class="title is-4" style="margin-top: 40px; margin-bottom: 15px;">Generalizable Transport of Non-Cylinderical Objects</h2>
+    <div class="columns">
+      <div class="column" style="flex: none; width: 50%;">
+        <video controls autoplay muted loop playsinline style="border-radius:10px; ">
+          <source src="./static/videos/keyboard_airpods_480.mp4" type="video/mp4">
+        </video>
+        <p style="font-size: small;">Transport a keyboard and AirPods.</p>
+        <!-- <h2 class="title is-5" style="margin-top: 10px; margin-bottom: 10px;">Transport a 1.4kg cylinder over 40m</h2> -->
+      </div>
+      <!-- Video column -->
+      <div class="column">
+        <video controls autoplay muted loop playsinline style="border-radius:10px; ">
+          <source src="./static/videos/cup_long_rail_480.mp4" type="video/mp4">
+        </video>
+        <p style="font-size: small;">Transport a cup and a long rail.</p>
+        <!-- <h2 class="title is-5" style="margin-top: 10px; margin-bottom: 10px;">Transport a sleppery bottle over 60m</h2> -->
+      </div>
+    </div>
+
+    <h2 class="title is-4" style="margin-top: 40px; margin-bottom: 15px;">Generalizable Transport of Diverse Cylinderical Objects</h2>
+    <video controls autoplay muted loop playsinline style="border-radius:10px; width: 90%; margin-bottom: 0px;">
+      <source src="./static/videos/diverse_objects_1080.mp4" type="video/mp4">
+    </video>
+    <p style="font-size: small;">
+      Transport a wide range of cylindrical objects with different sizes and weights.<br>
+      Diameters: 0.03-0.18m;
+      Lengths: 0.10-1.26m;
+      Weights: 0.03-1.45kg.
+    </p>
+
+    <h2 class="title is-4" style="margin-top: 40px; margin-bottom: 15px;">Policy Robustness</h2>
+    <video controls autoplay muted loop playsinline style="border-radius:10px; width: 90%; margin-bottom: 0px;">
+      <source src="./static/videos/robustnss_1080.mp4" type="video/mp4">
+    </video>
+
+    <h2 class="title is-4" style="margin-top: 40px; margin-bottom: 15px;">Symmetric, Frequency-Adaptive Gaits</h2>
+    <video controls autoplay muted loop playsinline style="border-radius:10px; width: 90%; margin-bottom: 0px;">
+      <source src="./static/videos/adaptive_gait_1080.mp4" type="video/mp4">
+    </video>
+
+    <h2 class="title is-4" style="margin-top: 40px; margin-bottom: 15px;">Teacher Policies Trained with and without Symmetricity Function</h2>
+    <video controls autoplay muted loop playsinline style="border-radius:10px; width: 90%; margin-bottom: 0px;">
+      <source src="./static/videos/symmetricity_1080.mp4" type="video/mp4">
+    </video>
+    <p style="font-size: small;">
+      We deploy both teacher policies on real robots with a forward velocity command of 0.3m/s.<br>
+      The baseline policy exhibits lateral drifting due to asymmetric deformation of the foot pairs.<br>
+      In contrast, our policy with symmetric gaits tracks the forward velocity command accurately.<br>
+      Details about the adaptive gait reward and symmetricity function can be found in the paper.
+    </p>
+
+    <h2 class="title is-4" style="margin-top: 40px; margin-bottom: 15px;">Baseline: Locomotion-Only Policy</h2>
+    <video controls autoplay muted loop playsinline style="border-radius:10px; width: 90%; margin-bottom: 0px;">
+      <source src="./static/videos/policy_without_tactile.mp4" type="video/mp4">
+    </video>
+    <p style="font-size: small;">
+      The locomotion policy trained without object interaction totally fails to transport objects.
+    </p>
+
+    <h2 class="title is-4" style="margin-top: 40px; margin-bottom: 15px;">High-Fidelity Tactile Simulation</h2>
+    <img style="margin-top: 0px; margin-bottom: 0px;" src="./static/images/tactile_sim2real.png" width="90%"></img>
+    <p style="margin-top: 10px; font-size: small;">
+      <strong>InterSect</strong>: an intersection-only model that detects contact only at cable intersections;<br>
+      <strong>Filtered</strong>: a Gaussian-smoothed model that applies a Gaussian filter to the output of InterSect;<br>
+      <strong>Ours</strong>: the proposed expanded collision model that enlarges each taxel's effective sensing area.<br>
+      Our efficient and scalable modeling method generates the most high-fidelity tactile signals.
+    </p>
+
+
+  </div>
+</section>
+
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="container">    
+  
+    <!-- Video Overview. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+      <h2 class="title is-3" >Video Overview</h2>
+      <div class="columns is-centered has-text-centered">
+          <div class="publication-video">
+          <iframe width="640" height="360" src="https://drive.google.com/file/d/1PGfrJSGg8HBU9nhU9KMVGHvFf1W-eWVt/preview" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+      </div>
+      </div>
+    </div>
+    <!--/ Video Overview. -->
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="container">    
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <!-- <div class="column is-four-fifths"> -->
+      <div class="column is-full">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified" style="margin-top: -10px">
+          <p>
+            Quadrupedal robots have demonstrated remarkable agility and robustness in traversing complex terrains.
+            However, they remain limited in performing object interactions that require sustained contact.
+            In this work, we present LocoTouch, a system that equips quadrupedal robots with tactile sensing to address a challenging task in this category:
+            long-distance transport of unsecured cylindrical objects, which typically requires custom mounting mechanisms to maintain stability. 
+          </p>
+          <p>
+            For efficient large-area tactile sensing, we design a high-density distributed tactile sensor array that covers the entire back of the robot.
+            To effectively leverage tactile feedback for locomotion control, we develop a simulation environment with high-fidelity tactile signals,
+            and train tactile-aware transport policies using a two-stage learning pipeline.
+            Furthermore, we design a novel reward function to promote stable, symmetric, and frequency-adaptive locomotion gaits. 
+          </p>
+          <p>
+            After training in simulation, LocoTouch transfers zero-shot to the real world, reliably balancing and transporting a wide range of unsecured, cylindrical everyday objects with broadly varying sizes and weights.
+            Thanks to the responsiveness of the tactile sensor and the adaptive gait reward, LocoTouch can robustly balance objects with slippery surfaces over long distances, or even under severe external perturbations.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          This website is adapted from the <a rel="repository"
+          href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> template.
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
